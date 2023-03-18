@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Pre-removal
+
+set -e
+if [ "$1" = "remove" ]; then
+    rm /usr/local/bin/tetrinal || true
+    # the '|| true' part is to avoid failing if the file doesn't exist
+fi
+
+# exit 0 means success
+exit 0

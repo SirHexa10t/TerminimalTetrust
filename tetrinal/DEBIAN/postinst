@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Post-installation
+
+set -e
+if [ "$1" = "configure" ] ; then
+    ln -s /usr/bin/tetrinal /usr/local/bin/tetrinal  # creates a symbolic link, so that the "tetrust" command can be used from the terminal.
+fi
+
+

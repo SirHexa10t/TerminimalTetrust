@@ -1,0 +1,5 @@
+Package: tetrinal
+Version: 0.0.1
+Architecture: all
+Maintainer: SirHexalot <sirhexal@gmail.com>
+Description: A minimal terminal application that runs Tetris in Rust
