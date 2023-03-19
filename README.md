@@ -9,7 +9,7 @@ This is a "learn how to code in Rust" project.
 
 ### Debian: 
 
-Download .deb file and run in terminal: `sudo dpkg -i tetrinal-*.deb`
+Download .deb file and run in terminal: `sudo dpkg -i tetris-*.deb`
 
 You can build the .deb file yourself by downloading the project and running "build_deb.sh"
 
@@ -17,10 +17,10 @@ You can build the .deb file yourself by downloading the project and running "bui
 ## Running
 ----------
 
-After installation, run in terminal: `tetrinal`
+After installation, run in terminal: `tetris`
 
 
 ## Uninstalling
 ---------------
 
-Purge by running: `sudo dpkg -P tetrinal`
+Purge by running: `sudo dpkg -P tetris`

@@ -1,0 +1,10 @@
+[package]
+name = "tetrust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crossterm = "0.26.1"  # for terminal access
+ctrlc = "3.2.5"  # handle ctrl+c (sigterm)

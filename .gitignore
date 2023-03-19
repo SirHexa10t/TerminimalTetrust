@@ -1,2 +1,8 @@
 
 *.deb
+
+*/.idea/
+*/target/
+
+tetris/usr/bin/tetris
+
